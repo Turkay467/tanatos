@@ -1,0 +1,270 @@
+#nav-header .navbar-brand span {
+color:#f76707;
+}
+#nav-header .collapse{
+    float:right;
+}
+#navbar{
+    background-image:url(img/layer-690.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+#jumbo{
+    background:none;
+    border-radius: 0;
+    box-shadow: none;
+    background-image: none;
+    background-color:transparent;
+    text-align:center;
+}
+#jumbo h1 span{
+    color:#f76707;
+}
+#jumbo .btn-link{
+    border:1px solid white;
+    width:150px;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    height: 37px;
+    padding-top: 3px;
+   
+}
+#jumbo .btn-warning{
+    width:150px;
+    color:white;
+    text-align:center;
+    margin-right: 15px;
+    height: 37px;
+    padding-top: 3px;
+background-color:#e04f00;
+border:none;
+}
+/* end navbar section */
+#print{
+    margin-top:50px;
+}
+.design i{
+    color: orange;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 99px;
+    height: 97px;
+    text-align: center;
+    padding-top: 20px;
+}
+.design h2{
+    font-size: 15px;
+    margin-left: 17px;
+}
+
+/* end print section */
+#subscribe{
+    margin-top:50px;
+}
+#subscribe .form-control{
+    width:50% !important;
+}
+#subscribe button{
+    width: 173px;
+    background-color:#e04f00;
+    color:white;
+}
+/* end subscribe section */
+#works{
+    margin-top:50px;  
+}
+#works span{
+color:#e04f00;
+}
+
+.photos {
+    height: 150px;
+    position:relative;
+    width:70%;
+    margin-bottom:20px;
+    text-align:center;
+    display:block;
+    margin: 0 auto 20px;
+
+}
+.photos img{
+    width:100%;
+    height:100%;
+}
+
+.desc{
+    color:white;
+    background-color:#faa157 ;
+    text-align: center;
+    opacity:0;
+    position: absolute;
+    top: 0px;
+    height: 154px;
+    width: 245px;
+    border-radius: 3px
+}
+.photos:hover .desc{
+opacity:1;
+}
+.desc button{
+    color:orange;
+}
+.desc h3{
+    font-size: 20px;
+}
+.show button {
+    border: 1px solid grey;
+    background: white;
+}
+/* end works section */
+#john{
+margin-top:50px;
+    background-image:url(img/parallax-bg.jpg);
+    height:200px;
+    color:white;
+}
+#john img{
+    width: 55px;
+    border-radius: 50px;
+    height: auto;
+}
+#john h3{
+    font-size: 15px;
+}
+/* end john section */
+#team{
+    margin-top:50px; 
+    color:grey;
+}
+#team span{
+    color:#faa157;
+}
+.gail img{
+    width: 193px;
+    height: 205px;
+    transition:all.3s;
+    object-fit:cover;
+}
+.gail h2{
+    font-size:20px;
+}
+.gail i{
+    font-size: 11px;
+    color: white;
+    border: 2px solid rgb(56, 54, 54);
+    border-radius: 24px;
+    background-color: rgb(56, 54, 54);
+    opacity: 0.2;
+    width: 22px;
+    height: 21px;
+    text-align: center;
+    margin: 7px 2px;
+    padding: 4px 3px;
+}
+.orange{
+    opacity:0;
+}
+.gail:hover .orange{
+    opacity:1;
+    color:#e04f00;
+}
+.gail:hover{
+    transform:scale(1,1.6);
+}
+.gail:hover .fa-facebook-f{
+     background-color:rgb(11, 11, 66);
+     border-color:rgb(11, 11, 66);
+}
+.gail:hover .fa-twitter{
+background-color:rgba(71, 150, 240, 0.719);
+border-color:rgba(71, 150, 240, 0.719);
+}
+.gail:hover .fa-google-plus-g{
+    background-color: #e04f00;
+    border-color:#e04f00;
+}
+/* end team section */
+#hello{
+    margin-top:80px;
+    background-image:url(img/coming-soon-bg.jpg);
+    height:460px;
+    position:relative;
+    color:white;
+}
+#hello:before{
+    content:'';
+    background:black;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0.6; 
+}
+#hello span{
+    color:#e04f00;
+
+}
+#hello input{
+    width:25%;
+    background-color:white;
+    display: inline-block;
+}
+#hello textarea{
+    width:51%;
+    background-color:white;
+    display: inline-block;
+}
+.hire button{
+    border-radius: 8px;
+    background-color: #e04f00;
+    color: white;
+    width: 114px;
+    border: none;
+    height: 35px;
+     display:block;
+     padding:0;
+}
+.us{
+    margin-left:25%;
+}
+.hire{
+    float:left;
+}
+
+.sosial{
+    display:inline-block;
+    float:right;
+}
+.sosial i{
+    font-size: 11px;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 24px;
+    background-color: blue;
+    opacity: 0.2;
+    width: 22px;
+    height: 21px;
+    text-align: center;
+    margin: 7px 2px;
+    padding: 4px 3px;
+}
+.sosial .fa-twitter,.fa-behance{
+    background-color:rgb(44, 153, 241);
+    border-color:rgb(44, 153, 241);
+}
+.sosial .fa-google-plus-g{
+    background-color:#e04f00;
+    border-color:#e04f00;
+}
+/* end hello section */
+footer{
+    background-color:rgb(32, 30, 30);
+    color:rgb(214, 203, 203);
+    padding:20px;
+}
+footer span{
+    color:#e04f00;
+}
